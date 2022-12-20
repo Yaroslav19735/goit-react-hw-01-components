@@ -23,7 +23,7 @@ export const TransactionHistory = ({ items }) => {
       </tbody>
     </table>
   );
-};
+}
 
 TransactionHistory.propTypes = {
   items: PropTypes.arrayOf(PropTypes.shape({
